@@ -1,0 +1,26 @@
+{
+  "name": "stacker-globals",
+  "version": "0.1.0",
+  "description": "Stacker global modules.",
+  "main": "index.js",
+  "engines": {
+    "node": ">= 0.11.14"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/getstacker/stacker-globals.git"
+  },
+  "keywords": [
+    "stacker"
+  ],
+  "author": "Joe Johnston <joe@simple10.com> (http://www.simple10.com/)",
+  "license": "Apache 2.0",
+  "bugs": {
+    "url": "https://github.com/getstacker/stacker-globals/issues"
+  },
+  "homepage": "https://github.com/getstacker/stacker-globals",
+  "dependencies": {
+    "coffee-script": "jashkenas/coffee-script",
+    "stacker-logger": "^0.1.0"
+  }
+}
