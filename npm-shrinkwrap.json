@@ -1,0 +1,64 @@
+{
+  "name": "stacker-globals",
+  "version": "0.1.0",
+  "dependencies": {
+    "coffee-script": {
+      "version": "1.8.0",
+      "from": "git+https://github.com/jashkenas/coffee-script",
+      "resolved": "git+https://github.com/jashkenas/coffee-script#a563e8f8fe0d99d6f107dedb26e8680915bc1d78",
+      "dependencies": {
+        "mkdirp": {
+          "version": "0.3.5",
+          "from": "mkdirp@>=0.3.5 <0.4.0",
+          "resolved": "https://registry.npmjs.org/mkdirp/-/mkdirp-0.3.5.tgz"
+        }
+      }
+    },
+    "stacker-logger": {
+      "version": "0.1.0",
+      "from": "stacker-logger@>=0.1.0 <0.2.0",
+      "dependencies": {
+        "winston": {
+          "version": "0.8.3",
+          "from": "https://registry.npmjs.org/winston/-/winston-0.8.3.tgz",
+          "resolved": "https://registry.npmjs.org/winston/-/winston-0.8.3.tgz",
+          "dependencies": {
+            "async": {
+              "version": "0.2.10",
+              "from": "async@0.2.10"
+            },
+            "colors": {
+              "version": "0.6.2",
+              "from": "colors@0.6.2",
+              "resolved": "https://registry.npmjs.org/colors/-/colors-0.6.2.tgz"
+            },
+            "cycle": {
+              "version": "1.0.3",
+              "from": "https://registry.npmjs.org/cycle/-/cycle-1.0.3.tgz",
+              "resolved": "https://registry.npmjs.org/cycle/-/cycle-1.0.3.tgz"
+            },
+            "eyes": {
+              "version": "0.1.8",
+              "from": "https://registry.npmjs.org/eyes/-/eyes-0.1.8.tgz",
+              "resolved": "https://registry.npmjs.org/eyes/-/eyes-0.1.8.tgz"
+            },
+            "isstream": {
+              "version": "0.1.0",
+              "from": "https://registry.npmjs.org/isstream/-/isstream-0.1.0.tgz",
+              "resolved": "https://registry.npmjs.org/isstream/-/isstream-0.1.0.tgz"
+            },
+            "pkginfo": {
+              "version": "0.3.0",
+              "from": "pkginfo@0.3.0"
+            },
+            "stack-trace": {
+              "version": "0.0.9",
+              "from": "https://registry.npmjs.org/stack-trace/-/stack-trace-0.0.9.tgz",
+              "resolved": "https://registry.npmjs.org/stack-trace/-/stack-trace-0.0.9.tgz"
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,7 +1,7 @@
 {
   "name": "stacker-globals",
-  "version": "0.1.0",
-  "description": "Stacker global modules.",
+  "version": "0.1.1",
+  "description": "Stacker globals plugin.",
   "main": "index.js",
   "engines": {
     "node": ">= 0.11.14"
@@ -11,7 +11,8 @@
     "url": "git://github.com/getstacker/stacker-globals.git"
   },
   "keywords": [
-    "stacker"
+    "stacker",
+    "plugin"
   ],
   "author": "Joe Johnston <joe@simple10.com> (http://www.simple10.com/)",
   "license": "Apache 2.0",
