@@ -8,7 +8,10 @@ if (!process.env.NODE_PATH || process.env.NODE_PATH.indexOf('stacker-globals') <
 }
 
 module.exports = {
+  _: require('stacker/_'),
   config: require('stacker/config'),
   help: require('stacker/help'),
-  log: require('stacker/log')
+  log: require('stacker/log'),
+  promise: require('stacker/promise'),
+  utils: require('stacker/utils')
 };
