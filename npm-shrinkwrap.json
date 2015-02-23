@@ -61,8 +61,8 @@
       }
     },
     "stacker-utils": {
-      "version": "0.2.5",
-      "from": "stacker-utils@0.2.5"
+      "version": "0.2.6",
+      "from": "stacker-utils@0.2.6"
     }
   }
 }
