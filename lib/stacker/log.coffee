@@ -1,2 +1,3 @@
 Logger = require 'stacker-logger'
-module.exports = new Logger
+log = new Logger
+module.exports = log

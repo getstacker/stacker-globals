@@ -1,11 +1,11 @@
-__help = {}
+help = {}
 
-getHelp = (task_name) ->
-  return __help  if task_name == undefined
-  __help[task_name]
+getHelp = (task) ->
+  return help  if task == undefined
+  help[task]
 
-setHelp = (task_name, deps, opts) ->
-  __help[task_name] =
+setHelp = (task, deps, opts) ->
+  help[task] =
     deps: deps
     opts: opts
 
