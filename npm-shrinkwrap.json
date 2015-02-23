@@ -1,16 +1,21 @@
 {
   "name": "stacker-globals",
-  "version": "0.2.1",
+  "version": "0.3.0",
   "dependencies": {
+    "bluebird": {
+      "version": "2.9.12",
+      "from": "bluebird@2.9.12",
+      "resolved": "https://registry.npmjs.org/bluebird/-/bluebird-2.9.12.tgz"
+    },
+    "lodash": {
+      "version": "3.3.0",
+      "from": "lodash@3.3.0",
+      "resolved": "https://registry.npmjs.org/lodash/-/lodash-3.3.0.tgz"
+    },
     "stacker-logger": {
-      "version": "0.1.2",
-      "from": "stacker-logger@0.1.2",
+      "version": "0.1.3",
+      "from": "stacker-logger@0.1.3",
       "dependencies": {
-        "coffee-script": {
-          "version": "1.9.1",
-          "from": "coffee-script@git+https://github.com/jashkenas/coffee-script#c2758da9ebee163de283c107a8b387e0942371c2",
-          "resolved": "git+https://github.com/jashkenas/coffee-script#c2758da9ebee163de283c107a8b387e0942371c2"
-        },
         "winston": {
           "version": "0.9.0",
           "from": "https://registry.npmjs.org/winston/-/winston-0.9.0.tgz",
@@ -54,6 +59,10 @@
           }
         }
       }
+    },
+    "stacker-utils": {
+      "version": "0.2.5",
+      "from": "stacker-utils@0.2.5"
     }
   }
 }
