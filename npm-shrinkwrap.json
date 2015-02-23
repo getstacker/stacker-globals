@@ -1,6 +1,6 @@
 {
   "name": "stacker-globals",
-  "version": "0.3.0",
+  "version": "0.3.2",
   "dependencies": {
     "bluebird": {
       "version": "2.9.12",
@@ -61,8 +61,8 @@
       }
     },
     "stacker-utils": {
-      "version": "0.2.6",
-      "from": "stacker-utils@0.2.6"
+      "version": "0.2.7",
+      "from": "stacker-utils@0.2.7"
     }
   }
 }

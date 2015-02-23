@@ -1,6 +1,6 @@
 {
   "name": "stacker-globals",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "description": "Stacker globals plugin",
   "main": "index.js",
   "engines": {
@@ -24,6 +24,6 @@
     "bluebird": "^2.9.12",
     "lodash": "^3.3.0",
     "stacker-logger": "^0.1.3",
-    "stacker-utils": "^0.2.6"
+    "stacker-utils": "^0.2.7"
   }
 }
