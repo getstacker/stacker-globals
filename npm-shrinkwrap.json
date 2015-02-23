@@ -1,36 +1,30 @@
 {
   "name": "stacker-globals",
-  "version": "0.1.0",
+  "version": "0.1.3",
   "dependencies": {
-    "coffee-script": {
-      "version": "1.8.0",
-      "from": "git+https://github.com/jashkenas/coffee-script",
-      "resolved": "git+https://github.com/jashkenas/coffee-script#a563e8f8fe0d99d6f107dedb26e8680915bc1d78",
-      "dependencies": {
-        "mkdirp": {
-          "version": "0.3.5",
-          "from": "mkdirp@>=0.3.5 <0.4.0",
-          "resolved": "https://registry.npmjs.org/mkdirp/-/mkdirp-0.3.5.tgz"
-        }
-      }
-    },
     "stacker-logger": {
-      "version": "0.1.0",
-      "from": "stacker-logger@>=0.1.0 <0.2.0",
+      "version": "0.1.2",
+      "from": "stacker-logger@0.1.2",
       "dependencies": {
+        "coffee-script": {
+          "version": "1.9.1",
+          "from": "coffee-script@git+https://github.com/jashkenas/coffee-script#c2758da9ebee163de283c107a8b387e0942371c2",
+          "resolved": "git+https://github.com/jashkenas/coffee-script#c2758da9ebee163de283c107a8b387e0942371c2"
+        },
         "winston": {
-          "version": "0.8.3",
-          "from": "https://registry.npmjs.org/winston/-/winston-0.8.3.tgz",
-          "resolved": "https://registry.npmjs.org/winston/-/winston-0.8.3.tgz",
+          "version": "0.9.0",
+          "from": "https://registry.npmjs.org/winston/-/winston-0.9.0.tgz",
+          "resolved": "https://registry.npmjs.org/winston/-/winston-0.9.0.tgz",
           "dependencies": {
             "async": {
-              "version": "0.2.10",
-              "from": "async@0.2.10"
+              "version": "0.9.0",
+              "from": "https://registry.npmjs.org/async/-/async-0.9.0.tgz",
+              "resolved": "https://registry.npmjs.org/async/-/async-0.9.0.tgz"
             },
             "colors": {
-              "version": "0.6.2",
-              "from": "colors@0.6.2",
-              "resolved": "https://registry.npmjs.org/colors/-/colors-0.6.2.tgz"
+              "version": "1.0.3",
+              "from": "https://registry.npmjs.org/colors/-/colors-1.0.3.tgz",
+              "resolved": "https://registry.npmjs.org/colors/-/colors-1.0.3.tgz"
             },
             "cycle": {
               "version": "1.0.3",
@@ -43,13 +37,14 @@
               "resolved": "https://registry.npmjs.org/eyes/-/eyes-0.1.8.tgz"
             },
             "isstream": {
-              "version": "0.1.0",
-              "from": "https://registry.npmjs.org/isstream/-/isstream-0.1.0.tgz",
-              "resolved": "https://registry.npmjs.org/isstream/-/isstream-0.1.0.tgz"
+              "version": "0.1.1",
+              "from": "https://registry.npmjs.org/isstream/-/isstream-0.1.1.tgz",
+              "resolved": "https://registry.npmjs.org/isstream/-/isstream-0.1.1.tgz"
             },
             "pkginfo": {
               "version": "0.3.0",
-              "from": "pkginfo@0.3.0"
+              "from": "https://registry.npmjs.org/pkginfo/-/pkginfo-0.3.0.tgz",
+              "resolved": "https://registry.npmjs.org/pkginfo/-/pkginfo-0.3.0.tgz"
             },
             "stack-trace": {
               "version": "0.0.9",

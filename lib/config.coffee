@@ -1,8 +1,9 @@
 module.exports =
-  # stack.json
-  stack:
-    # Config file to load
-    config: 'stacker.yaml'
+  # Name of loaded stacker file
+  # Set by cli options or searches local dir for 'stacker.[yaml|yml|json]'
+  stackerfile: null
+  # Contents of stackerfile
+  stacker: {}
 
   # Current environment config.
   config: {}

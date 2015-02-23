@@ -1,10 +1,10 @@
 {
   "name": "stacker-globals",
-  "version": "0.1.2",
-  "description": "Stacker globals plugin.",
+  "version": "0.1.3",
+  "description": "Stacker globals plugin",
   "main": "index.js",
   "engines": {
-    "node": ">= 0.11.14"
+    "iojs": ">= 1.3.0"
   },
   "repository": {
     "type": "git",
@@ -21,7 +21,6 @@
   },
   "homepage": "https://github.com/getstacker/stacker-globals",
   "dependencies": {
-    "coffee-script": "jashkenas/coffee-script",
-    "stacker-logger": "^0.1.0"
+    "stacker-logger": "^0.1.2"
   }
 }
