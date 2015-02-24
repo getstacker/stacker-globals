@@ -1,6 +1,6 @@
 {
   "name": "stacker-globals",
-  "version": "0.3.3",
+  "version": "0.3.4",
   "description": "Stacker globals plugin",
   "main": "index.js",
   "engines": {
@@ -25,5 +25,8 @@
     "lodash": "^3.3.0",
     "stacker-logger": "^0.1.3",
     "stacker-utils": "^0.2.8"
+  },
+  "devDependencies": {
+    "coffee-script": "^1.9.1"
   }
 }
